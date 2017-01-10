@@ -13,7 +13,7 @@ namespace JobAd
 		{
 
 			Applicant oApplicant = new Applicant() { Name = "Hans Hansen", Email = "hans@lolk-hansen.dk", Phonenumber = "+45 51224168" };
-			string strAdditionalMotivation = @"Jeg søger 'The read pill' og er altid klar til at 'follow the white rabbit'. Dertil kommer, at jeg kan fornemme, at denne stilling kan tilbyde mig dette - på en dejlig nørdet måde.";
+			string strAdditionalMotivation = @"Jeg søger ofte 'The read pill' og er altid klar til at 'follow the white rabbit'. Dertil kommer, at jeg kan fornemme, at denne stilling kan tilbyde mig udfordringer og gode sociale relationer - på en dejlig nørdet måde.";
 			List<Skill> oSkills = new List<Skill> {
 				/// Required skills
 				new Skill() { SkillName = "ASP.NET", SkillLevel = SkillLevel.Pro, SkillCategory = SkillCategory.Programming },
