@@ -12,7 +12,7 @@ namespace JobAd
 		public void IsQualified()
 		{
 
-			Applicant oApplicant = new Applicant() { Name = "Hans Hansen", Email = "hans@lolk-hansen.dk", Phonenumber = "51224168" };
+			Applicant oApplicant = new Applicant() { Name = "Hans Hansen", Email = "hans@lolk-hansen.dk", Phonenumber = "+4551224168" };
 			string strAdditionalMotivation = @"Jeg søger ofte 'The read pill' og er altid klar til at 'follow the white rabbit'. Dertil kommer, at jeg kan fornemme, at denne stilling kan tilbyde mig udfordringer og gode sociale relationer - på en dejlig nørdet måde.";
 			List<Skill> oSkills = new List<Skill> {
 				/// Required skills
